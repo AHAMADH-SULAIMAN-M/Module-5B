@@ -1,4 +1,4 @@
-<img width="820" height="490" alt="image" src="https://github.com/user-attachments/assets/6bc013e8-272e-4103-ae00-082604776834" /># # NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
+## NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
 
 ## 🎯 Aim
 To write a Python program using **NumPy** that finds the indices where elements in array `x` are greater than or equal to their corresponding elements in array `y`.
