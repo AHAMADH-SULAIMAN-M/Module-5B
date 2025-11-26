@@ -17,8 +17,33 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+
+import pandas as pd     # Import pandas
+import numpy as np      # Import numpy
+
+# Create dictionary
+exam_data = {
+    'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily'],
+    'score': [12.5, 9.0, 16.5, 10.0, 9.5],
+    'attempts': [1, 3, 2, 3, 2],
+    'qualify': ['yes', 'no', 'yes', 'no', 'yes']
+}
+
+# Index labels
+labels = ['a', 'b', 'c', 'd', 'e']
+
+# Create DataFrame
+df = pd.DataFrame(exam_data, index=labels)
+
+# Display DataFrame
+print(df)
+
+```
 
 ## Output
 
+<img width="816" height="343" alt="image" src="https://github.com/user-attachments/assets/516f26a4-171d-44cb-add6-4a53257373ed" />
+
 ## Result
+The oython program that displays a dataframe is executed successfully and verified.
